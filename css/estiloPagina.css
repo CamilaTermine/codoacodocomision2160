@@ -1,0 +1,35 @@
+header{
+    background-image: url("../img/header.jpeg");
+    /*background repeat: no repeat;*/
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: -2px;
+    width: 100%;
+}
+nav ul li{
+    background-color: aqua;
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+}
+h1{
+    background-color: rgba(255, 255, 255, 0.671);
+    height: 40px;
+    padding: 20px;
+}
+article{
+    background:linear-gradient(rgba(255, 0, 0, 0.233), rgba(0, 128, 0, 0.185));
+    width: 90%;
+    margin-left: 5%;
+    height: 700px;
+    padding-top: 150px;
+}
+article h2{
+    text-align: center;
+}
+nav{
+    position: fixed;
+    top: 100px;
+}
