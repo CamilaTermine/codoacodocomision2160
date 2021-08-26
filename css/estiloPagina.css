@@ -16,8 +16,7 @@ h1{
     padding: 20px;
 }
 article{
-    background: linear-gradient(rgba(255, 0, 0, 0.514),rgba(0, 128, 0, 0.404),
-    rgba(0, 0, 200, 0.404));
+    background: linear-gradient(rgba(124, 0, 37, 0.514),rgba(69, 36, 160, 0.404));
     width: 90%;
     margin-left: 5%;
     height: 700px;
@@ -27,7 +26,7 @@ nav{
     position: fixed;
 }
 nav ol li{
-    background-color: rgb(16, 130, 230);
+    background-color: rgba(184, 127, 196, 0.432);
     margin: 5px;
     display: inline;
     padding: 10px;
