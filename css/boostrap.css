@@ -1,0 +1,11 @@
+body{
+    background-image: url("../img/69092536-gatos-coloridos-de-dibujos-animados-fondo-de-pantalla-inconsútil.jpg");}
+.btn-primary{
+    background-color: darkblue;
+}
+.btn-primary:hover{
+    background-color: darkcyan;
+}
+.bg-otra{
+    background-color: rgba(207, 152, 233, 0.63);
+}
