@@ -23,7 +23,10 @@ li{
     cursor: pointer;
     box-shadow: 4px 5px 3px black;
     margin: 10px 10px;
-    
+}
+li:hover{
+    background-color: transparent;
+    box-shadow: 5px 4px 6px white;
 }
 li:hover{
     background-color: transparent;
@@ -32,10 +35,18 @@ li:hover{
 #padre, ul{
     background-color: black;
     display: flex;
+<<<<<<< HEAD
     justify-content: space-between; /* flex-start flex-end center space-around */
     position: fixed;
     top: 0px;
     left: 350px;
+=======
+    justify-content:space-between;/* flex-start flex-end, center, space-around*/
+    position: fixed;
+    top: 0px;
+    left: 350px;
+    
+>>>>>>> 292c55bc7d62537dc20f6155ddf2dd7afd8a9eef
 }
 
 .hija{

@@ -1,10 +1,20 @@
+<<<<<<< HEAD
 header{
     background-image: url("../img/header.jpeg");
     /*background repeat: no repeat;*/
+=======
+*{
+    margin: 0px;
+}
+header{
+    background-image: url('../img/header.jpeg');
+    /* background-repeat: no-repeat; */
+>>>>>>> 292c55bc7d62537dc20f6155ddf2dd7afd8a9eef
     height: 150px;
     display: flex;
     justify-content: flex-end;
     position: fixed;
+<<<<<<< HEAD
     top: -2px;
     width: 100%;
 }
@@ -14,12 +24,20 @@ nav ul li{
     padding: 10px;
     margin: 5px;
 }
+=======
+    top: 0px;
+    width: 100%;
+    /* opacity: 0; */
+}
+
+>>>>>>> 292c55bc7d62537dc20f6155ddf2dd7afd8a9eef
 h1{
     background-color: rgba(255, 255, 255, 0.671);
     height: 40px;
     padding: 20px;
 }
 article{
+<<<<<<< HEAD
     background:linear-gradient(rgba(255, 0, 0, 0.233), rgba(0, 128, 0, 0.185));
     width: 90%;
     margin-left: 5%;
@@ -32,4 +50,40 @@ article h2{
 nav{
     position: fixed;
     top: 100px;
+=======
+    background: linear-gradient(rgba(124, 0, 37, 0.514),rgba(69, 36, 160, 0.404));
+    width: 100%;
+    height: 700px;
+    padding-top: 150px;
+}
+nav{
+    position: fixed;
+}
+nav ol li{
+    background-color: rgba(184, 127, 196, 0.432);
+    margin: 5px;
+    display: inline;
+    padding: 10px;
+    
+}
+article h2{
+    text-align: center;
+   
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+body{
+    overflow: hidden;
+}
+footer{
+    background-color: palevioletred ;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+>>>>>>> 292c55bc7d62537dc20f6155ddf2dd7afd8a9eef
 }
