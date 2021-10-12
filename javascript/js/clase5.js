@@ -45,11 +45,11 @@ const crearForm = () => {
     <input type="text" class="form-control" id="propietario">
   <div class="mb-3">
   <label for="nombre" class="form-label">Nombre</label>
-    <input type="text" class="form-control" id="nombre">
+  <input type="text" class="form-control" id="nombre">
   </div>
   <div class="mb-3">
-  <label for="especie" class="form-label">Especie</label>
-  <input type="text" class="form-control" id="especie">
+  <label for="especies" class="form-label">Especie</label>
+  <input type="text" class="form-control" id="especies">
   </div>
   <div class="mb-3">
   <label for="raza" class="form-label">Raza</label>
@@ -91,11 +91,11 @@ const mostrarMascotas = () => {
                 <img src="${m.imagen}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${m.nombre}</h5>
-                <p class="card-text">Especie: ${m.especie}</p>
+                <p class="card-text">Especie: ${m.especies}</p>
             <p class="card-text">Raza: ${m.raza}</p>
             <p class="card-text">Edad: ${m.edad}</p>
             <p class="card-text">Peso: ${m.peso}</p>
-            <p class="card-text">Tipo de consulta${m.tipoConsulta}</p>
+            <p class="card-text">Tipo de consulta: ${m.tipoConsulta}</p>
             <p class="card-text">Propietario: ${m.propietario}</p>
             <a href="#" class="btn btn-primary" onclick="crearForm();" >Agregar otra mascota</a>
         </div>
