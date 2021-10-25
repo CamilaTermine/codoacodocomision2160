@@ -11,9 +11,10 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark d-flex">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex">
             <div class="container-fluid">
                 <a class="navbar-brand mx-auto" href="#">
                     <img src="./img/codoacodo.png" alt="codo a codo" class="imgnav">
@@ -39,7 +40,7 @@
                                 <a class="nav-link" href="#">Conviértete en orador</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-success">Comprar tickets</a>
+                                <a class="nav-link text-success" onclick="comprarTicket()">Comprar tickets</a>
                             </li>
                         </ul>
                     </div>
@@ -47,27 +48,32 @@
             </div>
         </nav>
     </header>
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="card bg-dark text-white p-0">
-                    <img class="card-img opacity-50 img-fluid" src="./img/ba1.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                        <div class="row h-100 align-items-center">
-                            <div class="col-8 offset-3 ">
-                                <div class="card-text">
-                                    <h1 class="card-title text-end">Conf Bs As</h1>
-                                    <p class="text-end">Bs As llega por pimera vez a Argentina. Un evento para compartir
-                                        con
-                                        <br>
-                                        nuestra comunidad el conocimiento y experiencia de los expertos que <br>
-                                        están creando el futuro de Internet. Ven a conocer a miembros del <br>
-                                        evento, a otros estudiantes de Codo a Codo y los oradores de primer <br>
-                                        nivel que tenemos para ti. Te esperamos!
-                                    </p>
-                                    <div class="text-end">
-                                        <button type="button" class="btn btn-outline-light ">Quiero ser orador</button>
-                                        <button type="button" class="btn text-white bg-color">Comprar Tickets</button>
+    <section id="section">
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="card bg-dark text-white p-0">
+                        <img class="card-img opacity-50 img-fluid" src="./img/ba1.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                            <div class="row h-100 align-items-center">
+                                <div class="col-8 offset-3 ">
+                                    <div class="card-text">
+                                        <h1 class="card-title text-end">Conf Bs As</h1>
+                                        <p class="text-end">Bs As llega por pimera vez a Argentina. Un evento para
+                                            compartir
+                                            con
+                                            <br>
+                                            nuestra comunidad el conocimiento y experiencia de los expertos que <br>
+                                            están creando el futuro de Internet. Ven a conocer a miembros del <br>
+                                            evento, a otros estudiantes de Codo a Codo y los oradores de primer <br>
+                                            nivel que tenemos para ti. Te esperamos!
+                                        </p>
+                                        <div class="text-end">
+                                            <button type="button" class="btn btn-outline-light ">Quiero ser
+                                                orador</button>
+                                            <button type="button" class="btn text-white bg-color">Comprar
+                                                Tickets</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -75,118 +81,120 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="container mt-3">
-            <div class="row text-center">
-                <div>CONOCE A LOS</div>
-                <h1>ORADORES</h1>
-            </div>
-            <div class="row row-cols-3 g-4">
-                <div class="col">
-                    <div class="card">
-                        <img src="./img/steve.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <span class="badge bg-warning text-dark"><b>JavaScript</b></span>
-                            <span class="badge bg-info text-light"><b>React</b></span>
-                            <h5 class="card-title">Steve Jobs</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Et voluptatibus perferendis deleniti, totam fuga
-                                sequi iste! Facilis explicabo repellat ut similique
-                                incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+        </section>
+        <section>
+            <div class="container mt-3">
+                <div class="row text-center">
+                    <div>CONOCE A LOS</div>
+                    <h1>ORADORES</h1>
+                </div>
+                <div class="row row-cols-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/steve.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <span class="badge bg-warning text-dark"><b>JavaScript</b></span>
+                                <span class="badge bg-info text-light"><b>React</b></span>
+                                <h5 class="card-title">Steve Jobs</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Et voluptatibus perferendis deleniti, totam fuga
+                                    sequi iste! Facilis explicabo repellat ut similique
+                                    incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="./img/bill.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <span class="badge bg-warning text-dark"><b>JavaScript</b></span>
-                            <span class="badge bg-info text-light"><b>React</b></span>
-                            <h5 class="card-title">Bill Gates</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Et voluptatibus perferendis deleniti, totam fuga
-                                sequi iste! Facilis explicabo repellat ut similique
-                                incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/bill.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <span class="badge bg-warning text-dark"><b>JavaScript</b></span>
+                                <span class="badge bg-info text-light"><b>React</b></span>
+                                <h5 class="card-title">Bill Gates</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Et voluptatibus perferendis deleniti, totam fuga
+                                    sequi iste! Facilis explicabo repellat ut similique
+                                    incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="./img/ada.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <span class="badge bg-secondary"><b>Negocios</b></span>
-                            <span class="badge bg-danger"><b>Startups</b></span>
-                            <h5 class="card-title">Ada Lovelace</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Et voluptatibus perferendis deleniti, totam fuga
-                                sequi iste! Facilis explicabo repellat ut similique
-                                incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container-fluid mt-5">
-            <div class="row row-cols-2">
-                <div class="col p-0">
-                    <div class="card">
-                        <img src="./img/honolulu.jpg" class="card-img img-fluid" alt="...">
-                    </div>
-                </div>
-                <div class="col p-0">
-                    <div class="card text-white bg-dark mb-3 h-100">
-                        <div class="card-body">
-                            <h1>Bs As - Octubre</h1>
-                            <p class="card-text">
-                                Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los
-                                Estados
-                                Unidos, Honolulu es la
-                                más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
-                                Honolulu
-                                se rrefiere al área
-                                urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han
-                                formado una ciudad-
-                                condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie).
-                            </p>
-                            <button type="button" class="btn btn-outline-light ">Conocé más</button>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <span class="badge bg-secondary"><b>Negocios</b></span>
+                                <span class="badge bg-danger"><b>Startups</b></span>
+                                <h5 class="card-title">Ada Lovelace</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Et voluptatibus perferendis deleniti, totam fuga
+                                    sequi iste! Facilis explicabo repellat ut similique
+                                    incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="container mt-5">
-            <div class="row text-center">
-                <div>CONVIÉRTETE EN UN</div>
-                <h1>ORADOR</h1>
-                <p>Anótate como orador para dar una <span class="spanstyle">charla ignite</span>.
-                    Cuéntanos de qué quieres hablar!</p>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-4">
-                    <input type="text" class="form-control" placeholder="Nombre">
-                </div>
-                <div class="col-4">
-                    <input type="text" class="form-control" placeholder="Apellido">
-                </div>
-                <div class="col-8 mt-4">
-                    <textarea class="form-control" placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
-                </div>
-                <div class="col-8 mt-2 form-text">
-                    <p>Recuerda incluir un título para tu charla</p>
-                </div>
-                <div class="col-8">
-                    <div class="d-grid">
-                        <button type="button" class="btn text-white btnenviar">Enviar</button>
+        </section>
+        <section>
+            <div class="container-fluid mt-5">
+                <div class="row row-cols-2">
+                    <div class="col p-0">
+                        <div class="card">
+                            <img src="./img/honolulu.jpg" class="card-img img-fluid" alt="...">
+                        </div>
+                    </div>
+                    <div class="col p-0">
+                        <div class="card text-white bg-dark mb-3 h-100">
+                            <div class="card-body">
+                                <h1>Bs As - Octubre</h1>
+                                <p class="card-text">
+                                    Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los
+                                    Estados
+                                    Unidos, Honolulu es la
+                                    más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
+                                    Honolulu
+                                    se rrefiere al área
+                                    urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu
+                                    han
+                                    formado una ciudad-
+                                    condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de
+                                    superficie).
+                                </p>
+                                <button type="button" class="btn btn-outline-light ">Conocé más</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section>
+            <div class="container mt-5">
+                <div class="row text-center">
+                    <div>CONVIÉRTETE EN UN</div>
+                    <h1>ORADOR</h1>
+                    <p>Anótate como orador para dar una <span class="spanstyle">charla ignite</span>.
+                        Cuéntanos de qué quieres hablar!</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="col-4">
+                        <input type="text" class="form-control" placeholder="Apellido">
+                    </div>
+                    <div class="col-8 mt-4">
+                        <textarea class="form-control" placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
+                    </div>
+                    <div class="col-8 mt-2 form-text">
+                        <p>Recuerda incluir un título para tu charla</p>
+                    </div>
+                    <div class="col-8">
+                        <div class="d-grid">
+                            <button type="button" class="btn text-white btnenviar">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
     <footer class="text-white text-center p-4 mt-3 footerstyle">
         <div class="container">
@@ -215,6 +223,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>

@@ -13,3 +13,9 @@
 .footerstyle{
     background: linear-gradient(rgb(28, 54, 67), rgb(30, 83, 114));
 }
+.btn-codo{
+    background-color:#97c93e;
+    color: white;
+    width: 98%;
+    margin: 2%;
+}
